@@ -1,0 +1,555 @@
+#logoVenn{
+    height: 76.14%;
+    width: 83.78%;
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 105px;
+    padding: 0px;   
+}
+header{
+    background-image: url(img/Grupo%209213.webp);
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding-top: 20px;
+    max-width: 1517px;
+    height:815px;
+    box-sizing: border-box;
+    width: 1348px
+}
+@media screen and (max-width: 980px){
+    header{
+        background-image: none;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'hind', sans-serif;
+}
+.topTitulo{
+    font-family: Hind;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17 !important;
+    text-align: center !important;
+    color: #002b39 !important;
+    margin-top: 47.5px;
+    margin-bottom: 22px;   
+}
+@media screen and (max-width: 980px){
+    .topTitulo{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 980px){
+    #Titulo{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.topTitulo3{
+    font-family: Hind;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17 !important;
+    text-align: center !important;
+    color: #002b39 !important;
+    margin-top: 26.5px;
+    margin-bottom: 15px;
+    padding-top: 65.516px;
+    padding-bottom: 26.516px;  
+}
+.bottemTitulo{
+    text-align: center;
+    margin: 13.260px;
+    overflow-wrap: break-word;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    color: #272c30;
+    font-family: "Public Sans", "Helvetico Neue", Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    letter-spacing: inherit;
+    margin: 0px;
+}
+#btn{
+    text-align: center;
+    margin-top: 13.260px;
+    margin-bottom: 47.868px;
+}
+#btn1{
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 26.516px;
+    margin-left: 123px;
+    margin-right: 123px;
+}
+#btn2{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 99.516px;
+    margin-left: 123px;
+    margin-right: 123px;
+}
+#btn3{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 99.516px;
+    margin-left: 123px;
+    margin-right: 123px;
+}
+.btnCrear{
+    color: white;
+    background-image: linear-gradient(0deg,#007fff 0%,#00b1ff 100%);
+    border: 1px solid transparent;
+    position: relative;
+    width: 264px;
+    height: 56.594px;
+    font-family: "Public Sans", "Helvetico Neue", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700!important;
+    border-radius: 5px!important;
+    padding-top: 13px!important;
+    padding-right: 25px!important;
+    padding-bottom: 13px!important;
+    padding-left: 25px!important;
+}
+.btnCrear:hover{
+    color: #1489ff;
+    background: white;
+    border-color: #1489ff;
+    cursor: pointer; 
+}
+.btnCrear1{
+    text-align: center;
+    color: #1489ff;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-family: "Public Sans", "Helvetico Neue", Arial, Helvetica, sans-serif;
+    text-transform: none;
+    font-style: normal;
+    margin: 0px;
+}
+@media screen and (max-width: 980px){
+    div#tarjeta{
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 2fr;
+        width: 356px;
+        height: 470px;   
+    }
+    .tarjeta_perfil:nth-child(1){
+        align-self: start;
+    }
+   .tarjeta_perfil1:nth-child(1){
+        align-self: start;
+    }
+    .tarjeta_perfil1{
+        align-self: start;
+    }
+   .sinEspacio{
+       align-self: start;
+   }
+}
+#tarjeta{
+    border: 1px solid rgb(199, 199, 199);
+    width: 645px;
+    height: 250px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background: white;   
+}
+.tarjeta_perfil:nth-child(1)
+{
+    display: block;
+    width: fit-content;
+    justify-self: center;
+}
+.tarjeta_perfil1:nth-child(1){
+    display: block;
+    width: max-content;
+}
+#tarjeta .tarjeta_perfil:nth-child(1) img{
+        max-width: 270px;
+        max-height: 250px;
+}
+.estrellas img{
+    max-height: 21px;
+    justify-items: center;
+}
+.tarjeta .tarjeta_perfil1 .estrellas{
+    justify-self: end;
+}
+.tarjeta_perfil1  .tarjeta_derecha{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-bottom: 16px;
+}
+.tarjeta_perfil1  .tarjeta_derecha .estrellas{
+    justify-self: end;
+}
+.parrafo{
+    font-size: 16px;
+    line-height: 21px;
+    color: #002b39 !important;
+    font-family: 'Hind', sans-serif;
+}
+.sinEspacio{
+    margin: 0;
+}
+.titulo{
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 32px;
+    color: #002b39;
+    font-family: 'Hind', sans-serif;
+}
+.titulo1{
+    font-size: 18px;
+    line-height: 21px;
+    color: #1489ff !important;
+    font-weight: 500;
+    font-family: 'Hind', sans-serif;
+}
+.span{
+    margin: 0;
+}
+@media screen and (max-width: 980px){
+    #seccion-productos{
+        margin-left: 375px;
+        margin-top: 375px;
+    }
+    div.productos{
+        
+        grid-template-columns: auto;
+        width: 325px;
+        height: 1171px;
+        align-self: center;
+        }
+    .tarjetaPro{
+        margin: 16px;
+    }
+    #btn2{
+        margin-left: 30px;
+    }
+}
+#seccion-productos{
+    width: 1330px;
+    max-width: fit-content;
+}
+.productos{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    margin-left: 63px;
+    margin-right: 63px;
+    margin-bottom: 29px!important;
+    width: 1110px;
+    height: 430px;
+    padding-right: 50px!important;
+    padding-left: 50px!important;
+    background-color: white;
+    padding-top: 8px;
+    padding-bottom: 26px;
+}
+.tarjetaPro{
+    display: grid;
+    display: inline-block;
+    margin-left: 30px;
+    padding: clamp(15px,1vw,4rem);
+    background-size: 120%!important;
+    padding-top: 0.5rem!important;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px 0 rgba(195,213,224,0.5);
+    background-color: #fff;
+}
+.tarjetaPro img{
+    position: relative;
+    display: inline;
+    max-width: 100%;
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+}
+.strong{
+    text-align: center; 
+    font-size: 25px; 
+    letter-spacing: inherit;
+    margin: 0;
+    color: inherit!important;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: bold;
+    font-family: 'Hind', sans-serif;
+}
+.letter{
+    text-align: center;
+    letter-spacing: inherit;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+    line-height: 1.6;
+    color: #272c30;
+}
+.plataforma{
+    display: block;
+    max-width: 868px;
+    margin: auto;
+    text-align: center;
+}
+@media screen and (max-width: 980px){
+    .plataforma{
+        width: 325px;
+        height: 985px;
+    }
+    div.seccioncolumnas{
+        grid-template-columns: auto;
+        margin-left: 3px;
+        background: none;
+    }
+    .topTitulo3{
+        align-self: center;
+    }
+    #btn2{
+        margin-left: 30px;
+    }
+}
+.seccioncolumnas .columna div{
+    display: block;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    height: 175px;
+    max-width: 200px;
+    margin: auto;
+}
+.img_1{
+    background: url(img/Grupo%209210@2x.webp) no-repeat;
+}
+.img_2{
+    background: url(img/Grupo%207025@2x.webp) no-repeat;
+}
+.img_3{
+    background: url(img/Grupo%207024@2x.webp) no-repeat;
+}
+.img_1:hover{
+    background: url(img/nuevo7023.svg) no-repeat;
+}
+.img_2:hover{
+    background: url(img/nuevo7025.svg) no-repeat;
+}
+.img_3:hover{
+    background: url(img/Grupo-7024-1.svg) no-repeat;
+}
+.seccioncolumnas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: url(img/Rectangulo-7185403x.png)  no-repeat;
+    background-size: 75%;
+    background-position: center;
+}
+.columna div:hover{
+    cursor:  pointer;
+}
+.seccioncolumnas .columna:first-child{
+    justify-items: start;
+}
+.seccioncolumnas .columna:last-child{
+    justify-items: end;
+
+}
+.textColumna{
+    text-align: center;
+    margin: 0px;
+    font-family: "Public Sans", "Helvetico Neue", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.1em;
+    font-weight: inherit;
+    color: #272c30;
+    padding-bottom: 26.516px;
+    padding-top: 8px; 
+}
+.Group{
+    margin-right: 188px;
+    margin-left: 188px;
+    position: relative;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    width: 950px;
+    height: 918.330px;
+    max-width: fit-content;
+}
+.tarjetaGrupo{
+    display: grid !important;
+    margin-top: 35px !important;
+    grid-template-columns: 33.3% 33.3% 33.3% !important;
+    justify-items: center;
+    width: 950px;
+    height: 644px;
+}
+.tarjetaCaracteristica{
+    display: grid !important;
+    width: 251.078px;
+    height: 85px;
+    font-family: Hind;
+    color: #002b39 !important;
+    word-break: break-all;
+    margin: 15px 6% !important;
+    padding: 22px 5% !important;
+    object-fit: contain !important;
+    border-radius: 10px !important;
+    box-shadow: 0 20px 15px 0 rgba(26, 72, 100, 0.1) !important;
+    border: solid 1px #c3d5e0 !important;
+    background-image: linear-gradient(to bottom, #fff, #fff 78%, #f0feff) !important;
+    font-size: 16px !important;
+    line-height: 21px !important;
+}
+.tarjetaCaracteristica:hover{
+    cursor: pointer;
+    border: 1px solid #1489ff !important; 
+}
+#link{
+    text-decoration: none !important;
+}
+.tarjetaCaracteristica img{
+    width: 35px;
+    height: 35px;
+    max-width: 100%;
+    margin: 8px;
+    border: none;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    justify-self: center;
+}
+.letter2{
+    text-align: center;
+    letter-spacing: inherit;
+    font-size: 100%; 
+    box-sizing: border-box;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+    line-height: 1.4;
+}
+.strong2{
+    text-align: center; 
+    font-size: 100%; 
+    letter-spacing: inherit;
+    margin: 0;
+    color: inherit!important;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: bold;
+    font-family: 'Hind', sans-serif;
+}
+.background-bottom{
+    background-image: url(img/Enmascarar%20grupo%20259@2x.webp);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding-top: 46px;
+    width: 1348px;
+    margin: 0;
+    padding: 4% 0;
+}
+@media screen and (max-width: 980px){
+    .background-bottom{
+        background-image: none;
+    }
+}   
+@media screen and (max-width: 980px){
+    div.Group{
+        height: 1175px;
+    }
+    div.tarjetaGrupo{
+        grid-template-columns: 33.3% 33.3% !important;
+        justify-content: center;
+        height: 950px;   
+    }
+}
+footer{
+    background-color: #1489ff;
+    width: 1348px;
+}
+.footer-contenido{
+    padding-top: 40px;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.footer-primerFila{
+    display: grid;
+    grid-template-columns: 1fr 14fr repeat(5 , 1fr);
+    align-items: center;
+    justify-items: end;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 980px){
+    .footer-primerFila{
+        grid-template-columns: repeat(6, 1fr);
+        row-gap: 35px;
+        justify-items: center;
+    }
+    #logoVennFooter{
+        display: inline;
+        margin: auto;
+        grid-column: 1 / -1;
+    }
+    a{
+        row-gap: 10px;
+        grid-row: 2;   
+    }
+}
+#logoVennFooter{
+    justify-self: start;
+}
+.footer-wrap{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 50% 50%;
+    border-top: #f0feff solid thin;
+    padding-top: 42px;
+}
+.footer-bottom{
+    display: grid;
+    width: 100%;
+    grid-column: 2;
+    margin: auto !important;
+    margin-right: 0px !important;
+    right: 0px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 14px !important;
+    padding-bottom: 40px;
+    justify-items: end
+    
+}
+.footer-text{
+    font-family: 'Hind', sans-serif, 'arial';
+    color: white;
+    line-height: 1em;
+    padding-bottom: 20px;
+    font-weight: 500;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+}
